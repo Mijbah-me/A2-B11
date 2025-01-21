@@ -20,7 +20,7 @@ nav{
 }
 .nav1{
     display:flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     flex: 0 1 12.625rem;
 }
@@ -82,4 +82,55 @@ text-align: center;
 }
 .btn-nav{
 background: rgb(254, 163, 1);
+}
+
+
+/* banner */
+
+
+.banner{
+    max-width: 90rem;
+    max-height:35.9375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.banner-header{
+width: 40rem;
+/* height: 11.4375rem; */
+height: auto;
+margin: 0;
+padding: 0;
+flex: 0 1 40rem;
+}
+.banner-h{
+font-size: 3.5rem;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+padding-right: 3.5rem;
+margin-bottom: 1.5rem;
+flex: 1 1;
+}
+.banner-s1{
+    color: rgb(254, 163, 1);
+}
+.banner-s2{
+    color: rgb(1, 172, 253);
+}
+.banner-paragraph{
+    width: 40rem;
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 1.5rem;
+flex: 1 1 40rem;
+}
+.btn-banner{
+    background-color: black;
 }
