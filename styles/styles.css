@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.font-p{
+    font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.img{
+    width:100%;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 90rem;
+    max-height: 6.375rem;
+    margin: 0 auto;
+    margin-bottom: 1.125rem;
+}
+.nav1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 12.625rem;
+}
+.nav-text{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 2rem;
+font-weight: 700;
+line-height: 1.875rem;
+letter-spacing: 0%;
+text-align:right;
+}
+.nav2{
+    flex: 0 1 24.1875rem;
+    align-items: center;
+    }
+.nav2>ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav2>ul>a{
+    text-decoration: none;
+}
+.nav2 ul li{
+    list-style-type: none;
+font-size: 1.25rem;
+font-weight: 700;
+letter-spacing: 0%;
+}
+.nav2 ul a:nth-last-child(4){
+    color: rgb(254, 163, 1);
+}
+.nav2 ul a:nth-last-child(3){
+    color: rgb(1, 172, 253);
+}
+.nav2 ul a:nth-last-child(2){
+    color: rgb(5, 212, 223);
+}
+.nav2 ul a:nth-last-child(1){
+    color: rgb(93, 88, 239);
+}
+
+nav3{
+    flex: 0 1 12.3125rem;
+}
+.btn-primary{
+width: 12.3125rem;
+justify-content: center;
+align-items: center;
+padding: 0.625rem;
+border-radius: .75rem;
+border: none;
+color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 600;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn-nav{
+background: rgb(254, 163, 1);
+}
