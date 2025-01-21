@@ -91,7 +91,6 @@ background: rgb(254, 163, 1);
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0;
 }
 .banner-header{
 max-width: 40rem;
@@ -122,6 +121,19 @@ margin-bottom: 1.5rem;
 .btn-banner{
     background-color: black;
 }
+
+
+/* Standard Curriculum  by Mijbah Uddin A2-B11*/
+.card-h{
+font-size: 2.875rem;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+margin: 3.75rem auto 5rem auto;
+}
+
+
+
 @media screen and (max-width: 73.125rem) {
     nav {
         border: 0.5px solid rgb(254, 163, 1);
@@ -132,14 +144,15 @@ margin-bottom: 1.5rem;
     .nav4{
         display: block;
     }
-    .nav, .banner {
+    .banner-h{
+        padding: 0;
+    }
+    
+    nav, .banner {
         padding: 0 1.5rem;
     }
     .banner{
         flex-direction:column-reverse;
-    }
-    .banner-h{
-        padding: 0;
     }
     .banner-h, .banner-p, .btnb{
         text-align: center;
