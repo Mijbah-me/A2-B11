@@ -22,25 +22,23 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    flex: 0 1 12.625rem;
 }
 .nav-text{
     color: rgb(17, 17, 17);
 font-family: Quicksand;
 font-size: 2rem;
 font-weight: 700;
-line-height: 1.875rem;
 letter-spacing: 0%;
 text-align:right;
 }
 .nav2{
-    flex: 0 1 24.1875rem;
     align-items: center;
     }
 .nav2>ul{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 .nav2>ul>a{
     text-decoration: none;
@@ -63,10 +61,6 @@ letter-spacing: 0%;
 .nav2 ul a:nth-last-child(1){
     color: rgb(93, 88, 239);
 }
-
-nav3{
-    flex: 0 1 12.3125rem;
-}
 .btn-primary{
 width: 12.3125rem;
 justify-content: center;
@@ -83,6 +77,9 @@ text-align: center;
 .btn-nav{
 background: rgb(254, 163, 1);
 }
+.nav4{
+    display: none;
+}
 
 
 /* banner */
@@ -90,7 +87,6 @@ background: rgb(254, 163, 1);
 
 .banner{
     max-width: 90rem;
-    max-height:35.9375rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,12 +94,7 @@ background: rgb(254, 163, 1);
     padding: 0;
 }
 .banner-header{
-width: 40rem;
-/* height: 11.4375rem; */
-height: auto;
-margin: 0;
-padding: 0;
-flex: 0 1 40rem;
+max-width: 40rem;
 }
 .banner-h{
 font-size: 3.5rem;
@@ -112,7 +103,6 @@ letter-spacing: 0%;
 text-align: left;
 padding-right: 3.5rem;
 margin-bottom: 1.5rem;
-flex: 1 1;
 }
 .banner-s1{
     color: rgb(254, 163, 1);
@@ -121,16 +111,38 @@ flex: 1 1;
     color: rgb(1, 172, 253);
 }
 .banner-paragraph{
-    width: 40rem;
+    max-width: 40rem;
     color: rgb(17, 17, 17);
-font-family: Quicksand;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 400;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 1.5rem;
-flex: 1 1 40rem;
 }
 .btn-banner{
     background-color: black;
+}
+@media screen and (max-width: 73.125rem) {
+    nav {
+        border: 0.5px solid rgb(254, 163, 1);
+    }
+    .nav2, .nav3 {
+        display: none;
+    }
+    .nav4{
+        display: block;
+    }
+    .nav, .banner {
+        padding: 0 1.5rem;
+    }
+    .banner{
+        flex-direction:column-reverse;
+    }
+    .banner-h{
+        padding: 0;
+    }
+    .banner-h, .banner-p, .btnb{
+        text-align: center;
+    }
+
 }
