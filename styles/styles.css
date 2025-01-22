@@ -317,6 +317,7 @@ text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 .btn-our6{
     background-color: black;
@@ -326,11 +327,25 @@ text-align: left;
 footer{
     max-width: 90rem;
     margin: 0 auto;
-    padding: 0 8.75rem;
+    padding: 5rem 8.75rem;
     display:grid;
     background-color: blueviolet;
-    color: aliceblue;
+    color: white;
     grid-template-columns: repeat(3,1fr);
+}
+.foot1 img,h4{
+    display: inline-block;
+    font-size: 2rem;
+}
+.foot2 ul a{
+    text-decoration: none;
+    color: white;
+}
+.foot2 ul {
+    list-style: none;
+}
+.foot2 li{
+    margin-bottom: .5rem;
 }
 
 
@@ -348,7 +363,7 @@ footer{
     .banner-h{
         padding: 0;
     }
-    nav, .cart-section, .banner, .our-stories, .our-hd, .our-c6{
+    footer, nav, .cart-section, .banner, .our-stories, .our-hd, .our-c6{
         padding: 0 1.5rem; 
     }
     .banner-content{
@@ -368,6 +383,15 @@ footer{
         "ct2""ct3""ct4""ct5""ft"
         ;
     }
-
+    footer{
+        grid-template-columns:repeat(1,1fr);
+        .foot1, .foot2, .foot3{
+            justify-content:start;
+            text-align: start;
+        }
+        .foot2 ul{
+            padding-inline-start: 0;
+        }
+    }
 
 }
