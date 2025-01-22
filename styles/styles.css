@@ -192,13 +192,29 @@ text-decoration: none;
 .imgc{
     max-width: 50%;
 }
-
+.right-left{
+    text-align: center;
+    margin: 5rem auto 7.5rem auto ;
+}
+.btn-sb{
+width:3.75rem;
+height:3.75rem;
+border-radius:1.875rem;
+background: rgb(254, 163, 1);
+border:none;
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 1.5rem;
+letter-spacing: 0%;
+margin-right: .625rem;
+}
 
 @media screen and (max-width: 73.125rem) {
     nav {
         border: 0.5px solid rgb(254, 163, 1);
     }
-    .nav2, .nav3 {
+    .nav2, .nav3,.right-left{
         display: none;
     }
     .nav4{
