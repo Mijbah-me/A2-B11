@@ -15,6 +15,7 @@ nav{
     justify-content:space-between;
     align-items: center;
     max-width: 90rem;
+    padding: 0 8.75rem;
     max-height: 6.375rem;
     margin: 0 auto;
     margin-bottom: 1.125rem;
@@ -88,6 +89,7 @@ background: rgb(254, 163, 1);
 
 .banner{
     max-width: 90rem;
+    padding:0 8.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,7 +137,6 @@ margin: 3.75rem auto 5rem auto;
 .cart-container{
     display:flex;
     max-width: 90rem;
-    margin: 0 auto;
     justify-content: space-between;
     gap: 1.9rem;
 }
@@ -194,7 +195,7 @@ text-decoration: none;
 }
 .right-left{
     text-align: center;
-    margin: 5rem auto 7.5rem auto ;
+    margin: 5rem auto 3.75rem auto ;
 }
 .btn-sb{
 width:3.75rem;
@@ -210,22 +211,37 @@ letter-spacing: 0%;
 margin-right: .625rem;
 }
 .cart-section{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 8.75rem;
     background-image: url(../assets/bg.png);
     background-repeat: no-repeat;
     object-fit:cover;
 }
+/* our stories */
+.our-stories{
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0 8.75rem;
+
+}
+.our-h{
+    color: rgb(0, 0, 0);
+font-size: 2.875rem;
+font-weight: 700;
+line-height: 3.59375rem;
+letter-spacing: 0%;
+text-align: center;
+}
+.our-c{
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media screen and (max-width: 73.125rem) {
-    html(
-        font-size: 18px;
-    )
     nav {
         border: 0.5px solid rgb(254, 163, 1);
-    }
-    .img-banner{
-        width: calc(100vw-1rem);
-
     }
     .nav2, .nav3,.right-left{
         display: none;
@@ -236,11 +252,8 @@ margin-right: .625rem;
     .banner-h{
         padding: 0;
     }
-    nav{
+    nav,.cart-section,.banner,.our-stories{
         padding: 0 1.5rem; 
-    }
-    .banner,.cart-section {
-        margin: 0 1.5rem;
     }
     .banner-content{
         order: 2;
