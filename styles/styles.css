@@ -239,7 +239,7 @@ margin-right: .625rem;
     nav{
         padding: 0 1.5rem; 
     }
-    .banner,.cart-container {
+    .banner,.cart-section {
         margin: 0 1.5rem;
     }
     .banner-content{
@@ -252,12 +252,6 @@ margin-right: .625rem;
     }
     .banner-h, .banner-p, .btnb{
         text-align: center;
-    }
-
-}
-@media screen and (max-width:36rem) {
-    html{
-        font-size:10px;
     }
 
 }
